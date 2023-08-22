@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@font-face {
+  font-family: "RifficFree";
+  src: url('../public/fonts/RifficFree-Bold.ttf');
+}
+.lesson-title{
+  -webkit-text-stroke-width: .5px;
+  text-align: center;
+}
+.lesson-title-normal{
+  background: linear-gradient(270.25deg, rgb(250, 142, 63) 0.22%, rgb(251, 150, 60) 0.23%, rgb(254, 182, 48) 70.76%);
+  -webkit-text-stroke-color: rgb(249, 92, 8);
+  color: #ffffff;
+}
+.lesson-title-lock{
+  background: linear-gradient(274deg, #FA8E3F 0%, #BCBCBC 0.01%, #DFDEDD 70.83%);
+  -webkit-text-stroke-color: rgb(169, 169, 169);
+  color: #ffffff;
+}
+.lesson-title-done{
+  background: linear-gradient(274deg, #5FD872 0%, #23AC38 0.01%, #5FD872 70.83%); 
+  -webkit-text-stroke-color: #04981B;
+  color: #ffffff;
+}
+
+.card{
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-back, .card-font{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.card-font{
+
+}
+.card-back{
+  transform: rotateY(180deg);
+}
+.speakerButton{
+  box-shadow: 3px 2px hsla(25,80%,78%,.502);
+}
+.speakerButton:active{
+  transform: translate(3px,2px);
+  box-shadow: 0 0 hsla(25,80%,78%,.502);
+}
+.practice-ans:active{
+  box-shadow: 0 0 transparent !important;
+  transform: translateY(4px);
+}
+*{
+  font-family: "RifficFree";
+}

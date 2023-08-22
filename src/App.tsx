@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css';
-import LessonItem from './components/Lesson/LessonItem';
-
+import React from "react";
+import "./App.css";
+import Home from "./pages/home/Home";
+import { Routes, Route } from "react-router-dom";
+import Learn from "./pages/learn/Learn";
 function App() {
   return (
     <div className="App">
-      <LessonItem/>
+      <Routes>
+        <Route index element={<Home />}></Route>
+        <Route path="/game" element={<Learn />}></Route>
+      </Routes>
     </div>
   );
 }
