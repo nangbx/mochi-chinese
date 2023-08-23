@@ -1,0 +1,421 @@
+{
+    "pageProps": {
+        "courseData": {
+            "title": "LEARN 100 BASIC WORDS",
+            "code": "TVCB",
+            "slug": "100-basic-words",
+            "lessons": [
+                {
+                    "stt": 1,
+                    "course": "TVCB",
+                    "code": "TVCB01",
+                    "sort": 1,
+                    "title": "Lesson 1",
+                    "description": "Introduction",
+                    "lesson_status": "orange",
+                    "words": [
+                        {
+                            "code": "TVCB0101",
+                            "content": "叫",
+                            "pinyin": "jiào",
+                            "position": "Verb",
+                            "trans": "to be called",
+                            "sentence": "我叫大卫。",
+                            "pinyin_sentence": "Wǒ jiào Dàwèi.",
+                            "en_sentence": "My name is David.",
+                            "audio": "jiao.mp3"
+                        },
+                        {
+                            "code": "TVCB0102",
+                            "content": "姓",
+                            "pinyin": "xìng",
+                            "position": "Noun/Verb",
+                            "trans": "surname, one’s family name is",
+                            "sentence": "我姓程。",
+                            "pinyin_sentence": "Wǒ xìng chéng.",
+                            "en_sentence": "My surname is Cheng.",
+                            "audio": "xing.mp3"
+                        },
+                        {
+                            "code": "TVCB0103",
+                            "content": "名字",
+                            "pinyin": "míngzi",
+                            "position": "Noun",
+                            "trans": "name",
+                            "sentence": "她的名字是玛丽。",
+                            "pinyin_sentence": "Tā de míngzi shì Mǎlì.",
+                            "en_sentence": "Her name is Mary.",
+                            "audio": "mingzi.mp3"
+                        },
+                        {
+                            "code": "TVCB0104",
+                            "content": "谁",
+                            "pinyin": "shéi",
+                            "position": "Pronoun",
+                            "trans": "who",
+                            "sentence": "他是谁?",
+                            "pinyin_sentence": "Tā shì shéi?",
+                            "en_sentence": "Who is he?",
+                            "audio": "shei.mp3"
+                        },
+                        {
+                            "code": "TVCB0105",
+                            "content": "介绍",
+                            "pinyin": "jièshào",
+                            "position": "Verb",
+                            "trans": "to introduce",
+                            "sentence": "请你介绍你的家人。",
+                            "pinyin_sentence": "Qǐng nǐ jièshào nǐ de jiārén.",
+                            "en_sentence": "Please introduce your family.",
+                            "audio": "jieshao.mp3"
+                        }
+                    ]
+                },
+                {
+                    "stt": 2,
+                    "course": "TVCB",
+                    "code": "TVCB02",
+                    "sort": 2,
+                    "title": "Lesson 2",
+                    "description": "My family 1",
+                    "lesson_status": "orange",
+                    "words": [
+                        {
+                            "code": "TVCB0201",
+                            "content": "口",
+                            "pinyin": "kǒu",
+                            "position": "Measure word",
+                            "trans": "measure word for family members",
+                            "sentence": "我家有三口人",
+                            "pinyin_sentence": "Wǒ jiā yǒu sān kǒu rén.",
+                            "en_sentence": "There are three people in my family.",
+                            "audio": "kou.mp3"
+                        },
+                        {
+                            "code": "TVCB0202",
+                            "content": "家",
+                            "pinyin": "jiā",
+                            "position": "Noun",
+                            "trans": "home, family",
+                            "sentence": "我家有三口人。",
+                            "pinyin_sentence": "Wǒ jiā yǒu sān kǒu rén.",
+                            "en_sentence": "There are three people in my family.",
+                            "audio": "jia.mp3"
+                        },
+                        {
+                            "code": "TVCB0203",
+                            "content": "个",
+                            "pinyin": "gè",
+                            "position": "Measure word",
+                            "trans": "general measure word, measure word for people",
+                            "sentence": "我有两个妹妹。",
+                            "pinyin_sentence": "Wǒ yǒu lǐang gè mèimei.",
+                            "en_sentence": "I have two younger sisters.",
+                            "audio": "ge.mp3"
+                        },
+                        {
+                            "code": "TVCB0204",
+                            "content": "家人",
+                            "pinyin": "jiārén",
+                            "position": "Noun",
+                            "trans": "family member",
+                            "sentence": "我和我的家人都喜欢喝咖啡。",
+                            "pinyin_sentence": "Wǒ hé wǒ de jiārén dōu xǐhuan hē kāfēi.",
+                            "en_sentence": "My family and I all like to drink coffee.",
+                            "audio": "jiaren.mp3"
+                        },
+                        {
+                            "code": "TVCB0205",
+                            "content": "爸爸",
+                            "pinyin": "bàba",
+                            "position": "Noun",
+                            "trans": "father",
+                            "sentence": "我的爸爸有一个姐姐。",
+                            "pinyin_sentence": "Wǒ de bàba yǒu yí gè jiějie.",
+                            "en_sentence": "My father has an older sister.",
+                            "audio": "baba.mp3"
+                        },
+                        {
+                            "code": "TVCB0206",
+                            "content": "妈妈",
+                            "pinyin": "māma",
+                            "position": "Noun",
+                            "trans": "mother",
+                            "sentence": "他的妈妈是玛丽。",
+                            "pinyin_sentence": "Tā de māma shì Mǎlì.",
+                            "en_sentence": "His mother is Mary.",
+                            "audio": "mama.mp3"
+                        },
+                        {
+                            "code": "TVCB0207",
+                            "content": "女儿",
+                            "pinyin": "nǚér",
+                            "position": "Noun",
+                            "trans": "daughter",
+                            "sentence": "我有一个漂亮的女儿。",
+                            "pinyin_sentence": "Wǒ yǒu yí gè piàoliàng de nǚér.",
+                            "en_sentence": "I have a beautiful daughter.",
+                            "audio": "nuer.mp3"
+                        },
+                        {
+                            "code": "TVCB0208",
+                            "content": "两",
+                            "pinyin": "liǎng",
+                            "position": "Numeral",
+                            "trans": "two",
+                            "sentence": "我有两个女儿。",
+                            "pinyin_sentence": "Wǒ yǒu liǎng gè nǚér.",
+                            "en_sentence": "I have two daughters.",
+                            "audio": "liang.mp3"
+                        }
+                    ]
+                },
+                {
+                    "stt": 3,
+                    "course": "TVCB",
+                    "code": "TVCB03",
+                    "sort": 3,
+                    "title": "Lesson 3",
+                    "description": "Time 1",
+                    "lesson_status": "orange",
+                    "words": [
+                        {
+                            "code": "TVCB0301",
+                            "content": "日",
+                            "pinyin": "rì",
+                            "position": "Measure word",
+                            "trans": "day",
+                            "sentence": "今天是十二月五日。",
+                            "pinyin_sentence": "Jīntiān shì shíèr yuè wǔ rì.",
+                            "en_sentence": "Today is December 5th.",
+                            "audio": "ri.mp3"
+                        },
+                        {
+                            "code": "TVCB0302",
+                            "content": "下午",
+                            "pinyin": "xiàwǔ",
+                            "position": "Noun",
+                            "trans": "afternoon",
+                            "sentence": "你明天下午做什么?",
+                            "pinyin_sentence": "Nǐ míngtiān xiàwǔ zuò shénme?",
+                            "en_sentence": "What are you going to do tomorrow afternoon?",
+                            "audio": "xiawu.mp3"
+                        },
+                        {
+                            "code": "TVCB0303",
+                            "content": "晚上",
+                            "pinyin": "wǎnshàng",
+                            "position": "Noun",
+                            "trans": "evening",
+                            "sentence": "你明天晚上看电影吗?",
+                            "pinyin_sentence": "Nǐ míngtiān wǎnshàng kàn diànyǐng ma?",
+                            "en_sentence": "Do you want to watch a movie tomorrow night?",
+                            "audio": "wanshang.mp3"
+                        },
+                        {
+                            "code": "TVCB0304",
+                            "content": "上午",
+                            "pinyin": "shàngwǔ",
+                            "position": "Noun",
+                            "trans": "morning",
+                            "sentence": "我上午要上课。",
+                            "pinyin_sentence": "Wǒ shàngwǔ yào shàngkè",
+                            "en_sentence": "I have classes in the morning.",
+                            "audio": "shangwu.mp3"
+                        },
+                        {
+                            "code": "TVCB0305",
+                            "content": "月",
+                            "pinyin": "yuè",
+                            "position": "Measure word",
+                            "trans": "month",
+                            "sentence": "明天是十二月六日。",
+                            "pinyin_sentence": "Míngtiān shì shíèr yuè liù rì.",
+                            "en_sentence": "Tomorrow is December 6th.",
+                            "audio": "yue.mp3"
+                        },
+                        {
+                            "code": "TVCB0306",
+                            "content": "几点",
+                            "pinyin": "jǐdiǎn",
+                            "position": "Phrase",
+                            "trans": "What time",
+                            "sentence": "现在几点?",
+                            "pinyin_sentence": "Xiànzài jǐdiǎn？",
+                            "en_sentence": "What time is it?",
+                            "audio": "jidian.mp3"
+                        },
+                        {
+                            "code": "TVCB0307",
+                            "content": "分",
+                            "pinyin": "fēn",
+                            "position": "Noun",
+                            "trans": "minute",
+                            "sentence": "现在是两点十分。",
+                            "pinyin_sentence": "Xiànzài shì liǎng diǎn shí fēn.",
+                            "en_sentence": "It is ten past two o'clock now.",
+                            "audio": "fen.mp3"
+                        },
+                        {
+                            "code": "TVCB0308",
+                            "content": "半",
+                            "pinyin": "bàn",
+                            "position": "Noun",
+                            "trans": "half",
+                            "sentence": "现在是六点半。",
+                            "pinyin_sentence": "Xiànzài shì liù diǎn bàn.",
+                            "en_sentence": "Now it is six thirty.",
+                            "audio": "ban.mp3"
+                        }
+                    ]
+                },
+                {
+                    "stt": 4,
+                    "course": "TVCB",
+                    "code": "TVCB04",
+                    "sort": 4,
+                    "title": "Lesson 4",
+                    "description": "Pronouns",
+                    "lesson_status": "gray",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 5,
+                    "course": "TVCB",
+                    "code": "TVCB05",
+                    "sort": 5,
+                    "title": "Lesson 5",
+                    "description": "My family 2",
+                    "lesson_status": "gray",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 6,
+                    "course": "TVCB",
+                    "code": "TVCB06",
+                    "sort": 6,
+                    "title": "Lesson 6",
+                    "description": "Time 2",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 7,
+                    "course": "TVCB",
+                    "code": "TVCB07",
+                    "sort": 7,
+                    "title": "Lesson 7",
+                    "description": "Places",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 8,
+                    "course": "TVCB",
+                    "code": "TVCB08",
+                    "sort": 8,
+                    "title": "Lesson 8",
+                    "description": "Expressions",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 9,
+                    "course": "TVCB",
+                    "code": "TVCB09",
+                    "sort": 9,
+                    "title": "Lesson 9",
+                    "description": "Things 1",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 10,
+                    "course": "TVCB",
+                    "code": "TVCB10",
+                    "sort": 10,
+                    "title": "Lesson 10",
+                    "description": "At the restaurant",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 11,
+                    "course": "TVCB",
+                    "code": "TVCB11",
+                    "sort": 11,
+                    "title": "Lesson 11",
+                    "description": "Appearance and Feelings",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 12,
+                    "course": "TVCB",
+                    "code": "TVCB12",
+                    "sort": 12,
+                    "title": "Lesson 12",
+                    "description": "Things 2",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 13,
+                    "course": "TVCB",
+                    "code": "TVCB13",
+                    "sort": 13,
+                    "title": "Lesson 13",
+                    "description": "Daily activities 1",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 14,
+                    "course": "TVCB",
+                    "code": "TVCB14",
+                    "sort": 14,
+                    "title": "Lesson 14",
+                    "description": "Daily activities 2",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 15,
+                    "course": "TVCB",
+                    "code": "TVCB15",
+                    "sort": 15,
+                    "title": "Lesson 15",
+                    "description": "Have a meal",
+                    "words": [
+                        {}
+                    ]
+                },
+                {
+                    "stt": 16,
+                    "course": "TVCB",
+                    "code": "TVCB16",
+                    "sort": 16,
+                    "title": "Lesson 16",
+                    "description": "At a cafe",
+                    "words": [
+                        {}
+                    ]
+                }
+            ]
+        }
+    },
+    "__N_SSG": true
+}

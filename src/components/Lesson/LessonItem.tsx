@@ -1,16 +1,31 @@
+import { useNavigate } from "react-router-dom";
+import { useAppDispatch } from "../../hooks";
+import { learnLesson } from "../../app/reducers/courses/coursesSlice";
+import { ILesson } from "../../types/lesson.type";
 export enum LessonStatus {
   NORMAL,
   LOCK,
   DONE,
 }
 interface LessonItemProp {
+  lesson: ILesson;
   status: LessonStatus;
   content: string;
   title: string;
 }
-function LessonItem({ status, content, title }: LessonItemProp) {
+function LessonItem({ status, content, title, lesson }: LessonItemProp) {
+  const dispatch = useAppDispatch();
+  const navigate = useNavigate();
+  const handleClickLesson = () => {
+    if (status === LessonStatus.LOCK) {
+    } else if (status === LessonStatus.DONE) {
+    } else {
+      dispatch(learnLesson(lesson));
+      navigate("/game");
+    }
+  };
   return (
-    <div>
+    <div className="cursor-pointer" onClick={handleClickLesson}>
       <div
         className={`relative ${
           status === LessonStatus.NORMAL
