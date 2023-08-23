@@ -1,25 +1,41 @@
-import Button, { ButtonStatus } from "../../components/Button/Button";
-import FlashCard from "../../components/Games/FlashCard";
-import Practice, { PracticeType } from "../../components/Games/Practice";
+import { useState } from "react";
+
+import { useAppDispatch, useAppSelector } from "../../hooks";
 import Progress from "../../components/Progress/Progress";
-import BoxAnswer, { AnswerType } from "../../components/Games/BoxAnswer";
+import Lottie from "lottie-react";
+import mochiAnimation from "../../assets/mochiontheway_v02.json";
+import Games from "../../components/Games/Games";
+import Popup from "../../components/Popup/Popup";
+
+const reg = new RegExp("^[0-9]+$");
 
 export default function Learn() {
+  const [animation, setAnimation] = useState(true);
+  const [open, setOpen] = useState(false);
+  const animationDone = () => {
+    setAnimation(!animation);
+  };
+  const { currentWords } = useAppSelector((state) => state.courses);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleOpenPopup = () => {
+    setOpen(true);
+  };
   return (
-    <div className="w-full h-screen bg-learn-background flex justify-center items-center">
-      <div
-        className="w-[50%] h-full bg-[#FFFDF5] flex flex-col justify-between items-center pb-10 relative"
-        style={{ boxShadow: "0px 5px 20px 0px rgba(254, 180, 49, 0.15)" }}
-      >
-        <Progress />
-        <Practice type={PracticeType.MEANS} />
-        <Button
-          content="Continue"
-          status={ButtonStatus.LOCK}
-          onClick={() => {}}
+    <>
+      <Progress onclick={handleOpenPopup} />
+
+      {animation ? (
+        <Lottie
+          animationData={mochiAnimation}
+          loop={false}
+          onComplete={animationDone}
         />
-        <BoxAnswer type={AnswerType.FALSE} />
-      </div>
-    </div>
+      ) : (
+        <Games words={currentWords} />
+      )}
+      {open && <Popup onClose={handleClose} />}
+    </>
   );
 }

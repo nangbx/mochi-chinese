@@ -11,7 +11,7 @@ interface ButtonProp {
 export default function Button({ status, content, onClick }: ButtonProp) {
   return (
     <div
-      className="w-72 h-[90px] bg-[#FFF8F3] rounded-[30px] flex justify-center items-center relative"
+      className="w-72 h-[90px] bg-[#FFF8F3] rounded-[30px] flex justify-center items-center relative cursor-pointer"
       style={{ boxShadow: "3px 5px 0px 0px rgba(0, 0, 0, 0.10)" }}
       onClick={onClick}
     >

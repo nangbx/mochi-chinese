@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Button, { ButtonStatus } from "../Button/Button";
 
 interface PopupProps {
-  onClick: React.MouseEventHandler;
+  onClose: React.MouseEventHandler;
 }
-function Popup({ onClick }: PopupProps) {
+function Popup({ onClose }: PopupProps) {
   return (
     <div className="fixed bg-black/[.5] w-full h-screen top-0 left-0 z-40 flex justify-center items-center">
       <div className="w-1/2 pt-16 pb-10 bg-white rounded-[20px] opacity-100 relative flex justify-center items-center flex-col translate-y-10">
@@ -18,9 +18,12 @@ function Popup({ onClick }: PopupProps) {
         <Button
           status={ButtonStatus.NORMAL}
           content="Continue"
-          onClick={onClick}
+          onClick={onClose}
         />
-        <p className="mt-6 text-2xl font-bold underline-offset-8 underline text-[#F95C08]">
+        <p
+          className="mt-6 text-2xl font-bold underline-offset-8 underline text-[#F95C08] cursor-pointer"
+          onClick={onClose}
+        >
           Exit
         </p>
       </div>
